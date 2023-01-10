@@ -1,0 +1,27 @@
+.user button{
+    background-color: white;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    padding: 7px 15px;
+}
+.user button:hover {
+    color: aliceblue;
+    background-color: blueviolet;
+}
+.user{
+    border: 1px solid blueviolet;
+    box-shadow: 10px 10px  8px blueviolet;
+    /* box-shadow: -10px -10px  8px blueviolet; */
+    width: 50%;
+    margin: 30px;
+    padding: 10px 0px;
+    border-top-right-radius:130px ;
+    border-bottom-left-radius: 130px;
+}
+.user_section{
+    display: flex;
+    
+}
+#ul{
+    text-shadow: 5px 5px 4px blueviolet;
+}

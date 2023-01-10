@@ -1,0 +1,19 @@
+.form4 {
+    background-color: white;
+    color: orange;
+    width: 550px;
+    margin-left: 500px;
+    height: 550px;
+    box-shadow: 10px 10px 8px black;
+    border: 0;
+}
+
+.form4 input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+    margin-right: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid orange;
+}

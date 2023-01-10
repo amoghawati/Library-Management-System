@@ -1,0 +1,33 @@
+.adminNavbar{
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    margin: 0px;
+    color: wheat;
+    background-color: rgb(5, 5, 76);
+}
+.n11 h1{
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.n211 li{
+    margin-top: 10px;
+    display: inline-block;
+    text-align: center;
+    justify-items: center;
+    justify-content: space-between;
+
+}
+.n211 a{
+   margin-left: 20px;
+    text-decoration: none;
+    color: wheat;
+}
+#n22 a{
+    color: red;
+}
+
+.n211 a:hover{
+    color: yellowgreen;
+}

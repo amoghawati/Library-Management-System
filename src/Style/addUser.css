@@ -1,0 +1,33 @@
+.form{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    background-color: rgb(239, 185, 49);
+    margin: 10px auto;
+    width: 800px;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 8px black;
+}
+
+.form_input{
+    text-align: center;
+}
+.form_input input{
+    border: none;
+    height: 30px;
+    width: 250px;
+    margin: 10px 40px;
+    border-radius: 10px;
+}
+.form_input button{
+    margin:0px 10px;
+    border: none;
+    background-color: rgba(164, 199, 231, 0.797);
+    color: rgb(63, 41, 14);
+    padding: 10px ;
+    border-radius: 8px;
+}
+/* .addUser{
+    text-align: center;
+} */

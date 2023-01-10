@@ -1,0 +1,39 @@
+.books_section{
+    /* display: flex;
+    flex-wrap: wrap; */
+    align-items: center;
+    text-align: center;
+} 
+.book_card{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 250px;
+    border: 1px solid gray;
+    width: 800px;
+    display: flex;
+    padding: 15px 0px 15px 30px;
+    box-shadow: 8px 8px 8px blueviolet;
+    /* justify-content: space-evenly; */
+}
+.book_card button{
+    margin-left:10px ;
+    background-color: white;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    padding: 7px 15px;
+}
+.book-details{
+    text-align: left;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+.book-details button:hover {
+    color: aliceblue;
+    background-color: blueviolet;
+}
+.book-img img{
+    width: 150px;
+    height: 250px;
+    padding-top: 30px;
+}
