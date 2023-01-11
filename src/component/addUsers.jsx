@@ -30,7 +30,7 @@ const AddUsers = () => {
     return ( 
         <div className="addUsers">
             <h1>Add to New user </h1>
-            <div className="form">
+          
               
                 <div className="form4">
                 <form action="" onSubmit={handleSubmit}>
@@ -53,7 +53,7 @@ const AddUsers = () => {
                     <button type="reset" onClick={handleReset}>Reset</button>
                 </form>
                 </div>
-            </div>
+       
         </div>
      );
 }

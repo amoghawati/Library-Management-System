@@ -5,8 +5,7 @@ import BookList from './bookList'
 import UserList from "./userList";
 import ReadBook from "./readBook";
 import AddUsers from "./addUsers";
-import AddBook from "./addbook";
-
+import AddBook from './addBook'
 
 const AdminPortal = () => {
     return (  
@@ -14,7 +13,7 @@ const AdminPortal = () => {
             <AdminNavbar/>
             <Routes>
                 <Route path="/" element={<AdminDashBoard/>}/>
-                <Route path="/add-book" element={AddBook} />
+                <Route path="/add-book" element={<AddBook/>} />
                 <Route path="/add-user" element={<AddUsers/>} />
                 <Route path="/book-list" element={<BookList/>} />
                 <Route path="/user-list" element={<UserList/>} />

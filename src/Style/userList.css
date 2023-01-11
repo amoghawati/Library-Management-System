@@ -1,18 +1,18 @@
 .user button{
     background-color: white;
-    color: blueviolet;
-    border: 1px solid blueviolet;
+    color: chartreuse;
+    border: 1px solid chartreuse;
     padding: 7px 15px;
 }
 .user button:hover {
     color: aliceblue;
-    background-color: blueviolet;
+    background-color: chartreuse;
 }
 .user{
-    border: 1px solid blueviolet;
-    box-shadow: 10px 10px  8px blueviolet;
+    border: 1px solid chartreuse;
+    box-shadow: 10px 10px  8px chartreuse;
     /* box-shadow: -10px -10px  8px blueviolet; */
-    width: 50%;
+    width: 580px;
     margin: 30px;
     padding: 10px 0px;
     border-top-right-radius:130px ;
@@ -20,8 +20,8 @@
 }
 .user_section{
     display: flex;
-    
+    flex-wrap: wrap;
 }
 #ul{
-    text-shadow: 5px 5px 4px blueviolet;
+    text-shadow: 5px 5px 4px chartreuse;
 }

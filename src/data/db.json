@@ -7078,6 +7078,27 @@
       "email": "neel@gmail.com",
       "phno": "98605",
       "id": 2
+    },
+    {
+      "name": "sachi",
+      "age": "24",
+      "email": "sachi@gmail.com",
+      "phno": "8760945679",
+      "id": 3
+    },
+    {
+      "name": "rathod",
+      "age": "23",
+      "email": "rathod@gmail.com",
+      "phno": "7689087654",
+      "id": 4
+    },
+    {
+      "name": "praveen",
+      "age": "22",
+      "email": "paveen@gmail.com",
+      "phno": "3456789056",
+      "id": 5
     }
   ]
 }

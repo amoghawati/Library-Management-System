@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../Styles/addBook.css";
+import "../Style/addBook.css";
 import { useNavigate } from "react-router-dom";
 const AddBook = () => {
   //title,categories,authors,pageCount,shortDescription.longDescription,thumbnailUrl
@@ -49,7 +49,7 @@ const AddBook = () => {
       <div className="form4">
         <form action="" onSubmit={handleSubmit}>
           <div className="title">
-            <label htmlFor="">Title:</label>
+            {/* <label htmlFor="">Title:</label> */}
             <input
               type="text"
               value={title}
@@ -59,7 +59,7 @@ const AddBook = () => {
             />
           </div>
           <div className="categories">
-            <label htmlFor="">Categories:</label>
+            {/* <label htmlFor="">Categories:</label> */}
             <input
               type="text"
               value={categories}
@@ -68,7 +68,7 @@ const AddBook = () => {
             />
           </div>
           <div className="authors">
-            <label htmlFor="">Authors:</label>
+            {/* <label htmlFor="">Authors:</label> */}
             <input
               type="text"
               value={authors}
@@ -77,7 +77,7 @@ const AddBook = () => {
             />
           </div>
           <div className="pageCount">
-            <label htmlFor="">PageCount:</label>
+            {/* <label htmlFor="">PageCount:</label> */}
             <input
               type="number"
               value={pageCount}
@@ -86,10 +86,10 @@ const AddBook = () => {
             />
           </div>
           <div className="shortDescription">
-            <label htmlFor="">shortDescription:</label>
+            {/* <label htmlFor="">shortDescription:</label> */}
             <textarea
-              cols="30"
-              rows="10"
+              cols="33"
+              rows="3"
               placeholder="shortDescription of the Book"
               required
               value={shortDescription}
@@ -97,10 +97,10 @@ const AddBook = () => {
             ></textarea>
           </div>
           <div className="longDescription">
-            <label htmlFor="">longDescription:</label>
+            {/* <label htmlFor="">longDescription:</label> */}
             <textarea
-              cols="30"
-              rows="10"
+              cols="33"
+              rows="3"
               placeholder="longDescription of the Book"
               required
               value={longDescription}
@@ -109,7 +109,7 @@ const AddBook = () => {
           </div>
 
           <div className="thumbnailUrl">
-            <label htmlFor="">thumbnailUrl:</label>
+            {/* <label htmlFor="">thumbnailUrl:</label> */}
             <input
               type="text"
               value={thumbnailUrl}

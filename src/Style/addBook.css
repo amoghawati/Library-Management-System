@@ -1,19 +1,43 @@
 .form4 {
     background-color: white;
-    color: orange;
-    width: 550px;
+    color: chartreuse;
+    width: 400px;
     margin-left: 500px;
-    height: 550px;
-    box-shadow: 10px 10px 8px black;
-    border: 0;
+    /* height: 0px; */
+    box-shadow: 10px 10px 8px chartreuse ;
+ 
 }
-
 .form4 input {
-    padding-top: 10px;
+    /* padding-top: 10px; */
     padding-bottom: 10px;
-    margin-top: 40px;
-    margin-right: 10px;
+    margin-top: 25px;
+    /* margin-right: 10px; */
+    width: 250px;
     border: none;
     outline: none;
-    border-bottom: 2px solid orange;
+    border-bottom: 2px solid chartreuse;
+    background: linear-gradient(rgb(255, 255, 255),rgb(252, 118, 118));
+    /* color: white; */
+
+}
+.form4 button{
+    margin: 10px;
+    border: 1px solid  ;
+    background-color: white;
+    color:chartreuse;
+    padding: 10px ;
+    /* border-radius: 5px; */
+}
+.form4 button:hover{
+    color: white;
+    background: linear-gradient(rgb(255, 255, 255),rgb(252, 118, 118));
+}
+.form4 textarea{
+    background: linear-gradient(rgb(255, 255, 255),rgb(252, 118, 118));
+   margin-top: 10px;
+   margin-bottom: 0px;
+   border: 1px solid chartreuse;
+}
+.form4{
+    background: linear-gradient(rgb(229, 231, 89),rgb(123, 226, 39));
 }
