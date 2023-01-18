@@ -32,12 +32,12 @@ const AddBook = () => {
       longDescription,
       thumbnailUrl,
     };
-   
+
     //post data to server
-    fetch(`http://localhost:1006/books`, {
+    fetch(`http://localhost:4000/books`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body:JSON.stringify(bookData)
+      body: JSON.stringify(bookData)
     });
     alert("book added successfully......!!")
     navigate('/admin/book-list')
@@ -88,7 +88,7 @@ const AddBook = () => {
           <div className="shortDescription">
             {/* <label htmlFor="">shortDescription:</label> */}
             <textarea
-              cols="33"
+              cols="36"
               rows="3"
               placeholder="shortDescription of the Book"
               required
@@ -99,7 +99,7 @@ const AddBook = () => {
           <div className="longDescription">
             {/* <label htmlFor="">longDescription:</label> */}
             <textarea
-              cols="33"
+              cols="36"
               rows="3"
               placeholder="longDescription of the Book"
               required

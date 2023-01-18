@@ -5,7 +5,8 @@ import BookList from './bookList'
 import UserList from "./userList";
 import ReadBook from "./readBook";
 import AddUsers from "./addUsers";
-import AddBook from './addBook'
+import AddBook from './addBook';
+import Error404 from "./404";
 
 const AdminPortal = () => {
     return (  
@@ -18,6 +19,8 @@ const AdminPortal = () => {
                 <Route path="/book-list" element={<BookList/>} />
                 <Route path="/user-list" element={<UserList/>} />
                 <Route path="/book-list/:id" element={<ReadBook/>} />
+                <Route path='*' element={<Error404/>}/>
+
             </Routes>
         </div>
     );

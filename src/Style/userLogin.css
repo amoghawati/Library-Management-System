@@ -5,6 +5,7 @@
    background-image: url('D:\React\library\public\images\img12.webp');
    background-position: center;
    background-size: cover;
+   text-align: center;
 }
 .form{
     height: 400px;

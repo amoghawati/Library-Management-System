@@ -1,3 +1,9 @@
+.addUsers{
+    background-image: url(https://www.greenwichlibrary.org/wp-content/uploads/2018/09/Library-Facade.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
 .form4 {
     background-color: white;
     color: orange;
@@ -30,4 +36,7 @@
 .form4 button:hover{
     color: white;
     background-color: orange;
+}
+.addUsers{
+    text-align: center;
 }

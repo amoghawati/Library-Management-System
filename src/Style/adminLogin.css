@@ -3,7 +3,7 @@
    background-color: rgba(102, 166, 235, 0.629);
    height: 100vh;
    background-image: url('D:\React\library\public\images\img1.jpg');
-   
+   text-align: center;
 }
 .form{
     height: 400px;

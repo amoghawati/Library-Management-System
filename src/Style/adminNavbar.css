@@ -3,8 +3,8 @@
     justify-content: space-around;
     height: 80px;
     margin: 0px;
-    color: black;
-    background: linear-gradient(rgb(229, 231, 89),rgb(123, 226, 39));
+    color: wheat;
+    background-color: rgb(5, 5, 76);
 }
 .n11 h1{
     font-weight: bold;
@@ -22,7 +22,7 @@
 .n211 a{
    margin-left: 20px;
     text-decoration: none;
-    color: black;
+    color: wheat;
 }
 #n22 a{
     color: red;
